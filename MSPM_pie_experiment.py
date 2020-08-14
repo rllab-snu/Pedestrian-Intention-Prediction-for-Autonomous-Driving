@@ -28,7 +28,6 @@ import os
 import time
 import pickle
 import numpy as np
-
 from keras.layers import Input, RepeatVector, Dense, Permute
 from keras.layers import Concatenate, Multiply, Dropout
 from keras.layers.recurrent import LSTM
